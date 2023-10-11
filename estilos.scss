@@ -70,7 +70,46 @@ $grisclaro:#ebe7e0;
         transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
       
       }
+      .section2 {
+        color:$azuloscuro;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
+        height: 100vh;
+        min-height: 45rem;
+        max-height: 45rem;
       }
+      .titulo-aboutme {
+        font-size: 45px;
+        color: $grisclaro;
+        padding-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #presentacion-jony {
+    color: $grisclaro;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .presentacion {
+    height: 100%;
+  }
+  #foto-jony {
+    height: 20%;
+    box-shadow: 2px 5px 5px $grisoscuro;
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  
+  #foto-jony:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+    }
+
+
+      }
+
+
+
 /*MEDIA QUERIE MEDIANO PARTE 1*/
 @media only screen and (max-width: 545px) and (min-width: 386px) {
     #titulo-navbar {
@@ -128,6 +167,40 @@ $grisclaro:#ebe7e0;
         transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
       
       }
+      .section2 {
+        color:$azuloscuro;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
+        height: 100vh;
+        min-height: 45rem;
+        max-height: 45rem;
+      }
+      .titulo-aboutme {
+        font-size: 60px;
+        color: $grisclaro;
+        padding-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #presentacion-jony {
+        color: $grisclaro;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+    
+      .presentacion {
+        height: 100%;
+      }
+      #foto-jony {
+        height: 20%;
+        box-shadow: 2px 5px 5px $grisoscuro;
+        transition: transform 0.2s; /* Animación de transformación */
+      }
+      
+      #foto-jony:hover {
+        transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+        }
       }
 
 
@@ -208,6 +281,40 @@ $grisclaro:#ebe7e0;
         transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
       
       }    
+      .section2 {
+        color:$azuloscuro;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
+        height: 100vh;
+        min-height: 45rem;
+        max-height: 45rem;
+      }
+      .titulo-aboutme {
+        font-size: 60px;
+        color: $grisclaro;
+        padding-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #presentacion-jony {
+        color: $grisclaro;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+    
+      .presentacion {
+        height: 100%;
+      }
+      #foto-jony {
+        height: 20%;
+        box-shadow: 2px 5px 5px $grisoscuro;
+        transition: transform 0.2s; /* Animación de transformación */
+      }
+      
+      #foto-jony:hover {
+        transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+        }
 }
 
 
@@ -466,6 +573,9 @@ $grisclaro:#ebe7e0;
     
 
 }
+
+
+
 
 #titulo-navbar:hover {
     color: #44749d;
