@@ -86,7 +86,7 @@ $grisclaro:#ebe7e0;
       }
       #presentacion-jony {
     color: $grisclaro;
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     padding: 20px;
@@ -96,7 +96,7 @@ $grisclaro:#ebe7e0;
     height: 100%;
   }
   #foto-jony {
-    height: 20%;
+    height: 30%;
     box-shadow: 2px 5px 5px $grisoscuro;
     transition: transform 0.2s; /* Animación de transformación */
   }
@@ -104,7 +104,21 @@ $grisclaro:#ebe7e0;
   #foto-jony:hover {
     transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
     }
-
+    .skill-titulo {
+        color: $grisclaro;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: overline;
+        font-size: 20px;
+        margin-top: -250px;      
+      }
+#columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;   
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
 
       }
 
@@ -183,7 +197,7 @@ $grisclaro:#ebe7e0;
       }
       #presentacion-jony {
         color: $grisclaro;
-        font-size: 15px;
+        font-size: 18px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         padding: 20px;
@@ -193,7 +207,7 @@ $grisclaro:#ebe7e0;
         height: 100%;
       }
       #foto-jony {
-        height: 20%;
+        height: 40%;
         box-shadow: 2px 5px 5px $grisoscuro;
         transition: transform 0.2s; /* Animación de transformación */
       }
@@ -292,22 +306,21 @@ $grisclaro:#ebe7e0;
       .titulo-aboutme {
         font-size: 60px;
         color: $grisclaro;
-        padding-top: 30px;
+        padding-top: 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
       #presentacion-jony {
         color: $grisclaro;
-        font-size: 15px;
+        font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         padding: 20px;
       }
-    
-      .presentacion {
+       .presentacion {
         height: 100%;
       }
       #foto-jony {
-        height: 20%;
+        height: 40%;
         box-shadow: 2px 5px 5px $grisoscuro;
         transition: transform 0.2s; /* Animación de transformación */
       }

@@ -78,7 +78,7 @@
   }
   #presentacion-jony {
     color: #ebe7e0;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-align: center;
     padding: 20px;
@@ -87,12 +87,27 @@
     height: 100%;
   }
   #foto-jony {
-    height: 20%;
+    height: 30%;
     box-shadow: 2px 5px 5px #535352;
     transition: transform 0.2s; /* Animación de transformación */
   }
   #foto-jony:hover {
     transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
+  .skill-titulo {
+    color: #ebe7e0;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: overline;
+    font-size: 20px;
+    margin-top: -250px;
+  }
+  #columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
   }
 }
 /*MEDIA QUERIE MEDIANO PARTE 1*/
@@ -167,7 +182,7 @@
   }
   #presentacion-jony {
     color: #ebe7e0;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-align: center;
     padding: 20px;
@@ -176,7 +191,7 @@
     height: 100%;
   }
   #foto-jony {
-    height: 20%;
+    height: 40%;
     box-shadow: 2px 5px 5px #535352;
     transition: transform 0.2s; /* Animación de transformación */
   }
@@ -264,12 +279,12 @@
   .titulo-aboutme {
     font-size: 60px;
     color: #ebe7e0;
-    padding-top: 30px;
+    padding-top: 50px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   #presentacion-jony {
     color: #ebe7e0;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-align: center;
     padding: 20px;
@@ -278,7 +293,7 @@
     height: 100%;
   }
   #foto-jony {
-    height: 20%;
+    height: 40%;
     box-shadow: 2px 5px 5px #535352;
     transition: transform 0.2s; /* Animación de transformación */
   }
