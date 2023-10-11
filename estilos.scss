@@ -1,0 +1,177 @@
+$azuloscuro: #44749d;
+$azulclaro: #c6d4e1;
+$grisoscuro: #535352;
+$grisclaro:#ebe7e0;
+
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+
+/*MEDIA QUERIE CELULAR*/
+@media only screen and (max-width: 385px) and (min-width: 280px){
+    #titulo-navbar {
+        font-size: 0px;
+    }
+    h1 {
+        color: #44749d;
+        padding-top: 150px;
+        text-align: center;
+        font-size: 250%;
+      }
+      .section1-info {
+        text-align: center;
+        color:$grisoscuro;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 120%;
+        padding: 20px;
+      }
+      .section1 {
+        color: #fff;
+        background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
+        background-position: center;
+        height: 30vh;
+        min-height: 30rem;
+        max-height: 30rem;
+      }
+      #boton-work2 {
+        font-size: 0px;
+      }
+      .btn-group-vertical { 
+        display: flex; /* Establece un contenedor de flexbox */
+        flex-direction:row;
+        background-color: #ffffff;
+        width: 70%;
+        padding: 20px;
+        margin-top: -20px;
+        justify-content: center;
+        justify-content: space-around; /* Distribuye los elementos uniformemente en el contenedor */
+      
+    }
+      .logo1 {
+        border-radius: 10px;
+        padding:10px;
+        top: 0;
+        left: 0;
+        width: 60%; /* Ajusta el valor para agrandar la parte deseada */
+        height: 60%; /* Ajusta el valor para agrandar la parte deseada */
+        color: $grisclaro;
+        background-color:$azuloscuro;
+        text-align: center; /* Centra el contenido horizontalmente dentro del div */
+
+      }
+           
+      a:hover .logo1 {
+        background-color: $grisoscuro;
+      }
+ 
+
+}
+/*MEDIA QUERIE MEDIANO*/
+@media only screen and (max-width: 550px) and (min-width: 385px) {
+    #titulo-navbar {
+        font-size: 0px;
+    }
+    h1 {
+        color: #44749d;
+        padding-top: 150px;
+        text-align: center;
+        font-size: 250%;
+      }
+      .section1-info {
+        text-align: center;
+        color:$grisoscuro;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 140%;
+        padding: 20px;
+      }
+      .section1 {
+        color: #fff;
+        background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
+        background-position: center;
+        height: 30vh;
+        min-height: 30rem;
+        max-height: 30rem;
+      }
+      #boton-work2 {
+        font-size: 0px;
+      }
+      .btn-group-vertical { 
+        display: flex; /* Establece un contenedor de flexbox */
+        flex-direction:row;
+        margin-top: -20px;
+        justify-content: space-around; /* Distribuye los elementos uniformemente en el contenedor */
+      
+    }
+      .logo1 {
+        border-radius: 10px;
+        padding:10px;
+        top: 0;
+        left: 0;
+        width: 60%; /* Ajusta el valor para agrandar la parte deseada */
+        height: 60%; /* Ajusta el valor para agrandar la parte deseada */
+        color: $grisclaro;
+        background-color:$azuloscuro;
+        text-align: center; /* Centra el contenido horizontalmente dentro del div */
+
+      }
+           
+      a:hover .logo1 {
+        background-color: $grisoscuro;
+      }
+
+}
+
+/*MEDIA QUERIE GRANDE*/
+@media only screen and (max-width: 1800px) and (min-width: 550px){
+    
+
+}
+
+#titulo-navbar:hover {
+    color: #44749d;
+
+}
+
+section {
+  display: block;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.navbar-nav {
+  color: #bdb8ad;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.container-fluid {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;  
+  
+  }
+.navbar-nav a:hover {
+  color: $azuloscuro;
+}
+
+
+
+
+
