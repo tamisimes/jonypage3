@@ -111,6 +111,212 @@
   }
 }
 /*MEDIA QUERIE GRANDE*/
+@media only screen and (max-width: 1800px) and (min-width: 550px) {
+  .section1 {
+    color: #fff;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
+    background-position: center;
+    height: 50vh;
+    min-height: 50rem;
+    max-height: 50rem;
+  }
+  section {
+    display: block;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  }
+  .container-fluid {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    float: right;
+  }
+  .navbar-nav {
+    color: #bdb8ad;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    transition: color 0.3s;
+  }
+  .navbar-nav a:hover {
+    color: #44749d;
+  }
+  h1 {
+    color: #44749d;
+    padding-top: 270px;
+    text-align: center;
+    font-size: 300%;
+  }
+  .navbar-brand {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-style: inherit;
+    letter-spacing: 1px;
+    color: gray;
+    font-size: 15px;
+  }
+  .section1-info {
+    text-align: center;
+    color: #535352;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 170%;
+    padding: 20px;
+  }
+  .boton-work {
+    color: #44749d;
+  }
+  .boton-work {
+    text-align: center;
+    padding-top: 1%;
+  }
+  /* Estilos para el botón gris */
+  #boton-work2 {
+    background-color: #44749d;
+    border: 5px solid #c6d4e1;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    letter-spacing: 7px;
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  #boton-work2:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
+  .btn-group-vertical {
+    background-color: white;
+    height: 0px;
+    width: 80px;
+    align-items: center;
+    box-shadow: #535352 2px 0px 2px;
+    margin-top: -280px;
+  }
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+  }
+  .logo1 {
+    text-align: center;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    width: 60%; /* Ajusta el valor para agrandar la parte deseada */
+    height: 60%; /* Ajusta el valor para agrandar la parte deseada */
+    transform-origin: center;
+    color: #ebe7e0;
+    margin-right: 20px; /* Ajusta el valor según el espacio que desees entre los logotipos */
+    background-color: #44749d;
+    border-radius: 2px;
+  }
+  a:hover .logo1 {
+    background-color: #535352;
+  }
+  .section2 {
+    color: #44749d;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(115, 129, 134, 0.7483368347) 0%, rgb(68, 116, 157) 100%);
+    background-position: center;
+    height: 100vh;
+    min-height: 45rem;
+    max-height: 45rem;
+  }
+  #columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .boton-contenedor {
+    padding: 0rem 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    background: white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #44749d;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .titulo-aboutme {
+    font-size: 60px;
+    color: #ebe7e0;
+    padding-top: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  #presentacion-jony {
+    color: #ebe7e0;
+    font-size: 22px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 30px;
+  }
+  #foto-jony {
+    height: 50%;
+    box-shadow: 2px 5px 5px #535352;
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  #foto-jony:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
+  .skill-titulo {
+    color: #ebe7e0;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: overline;
+    text-align: left;
+    padding-top: 100px;
+    font-size: 30px;
+  }
+  .section3 {
+    color: #44749d;
+    background: #ebe7e0;
+    height: 100vh;
+    min-height: 45rem;
+    max-height: 45rem;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 30px; /* Ajusta el valor según el espaciado que desees */
+  }
+  /* Agrega un estilo para el separador entre elementos del menú */
+  .separator {
+    display: inline-block;
+    width: 2px; /* Ancho del separador */
+  }
+  .card {
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
+  #titulo-studies {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 60px;
+    padding-top: 250px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 20px; /* Espacio entre las columnas */
+  }
+  .columna-1 {
+    grid-row: span 2; /* La primera columna ocupa dos filas */
+    background-color: #ebe7e0;
+    padding: 80px;
+  }
+  .columna-2 {
+    background-color: #ebe7e0;
+    padding: 20px;
+  }
+  .card-body {
+    margin-top: 10px;
+  }
+}
 #titulo-navbar:hover {
   color: #44749d;
 }
