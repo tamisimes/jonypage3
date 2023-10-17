@@ -75,8 +75,8 @@ $grisclaro:#ebe7e0;
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
         height: 100vh;
-        min-height: 45rem;
-        max-height: 45rem;
+        min-height: 60rem;
+        max-height: 60rem;
       }
       .titulo-aboutme {
         font-size: 45px;
@@ -96,7 +96,7 @@ $grisclaro:#ebe7e0;
     height: 100%;
   }
   #foto-jony {
-    height: 30%;
+    height: 27%;
     box-shadow: 2px 5px 5px $grisoscuro;
     transition: transform 0.2s; /* Animación de transformación */
   }
@@ -104,20 +104,30 @@ $grisclaro:#ebe7e0;
   #foto-jony:hover {
     transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
     }
-    .skill-titulo {
+.skill-titulo {
         color: $grisclaro;
         font-family: 'Courier New', Courier, monospace;
         text-decoration: overline;
         font-size: 20px;
-        margin-top: -250px;      
+        margin-top: -450px;      
       }
 #columna-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;   
     text-align: center;
-    margin-top: 50px;
-    padding: 10px;
+    margin-top: 3px;
+    padding: 12px;
+    color: $grisclaro;
+    font-size: 9px;
+}
+
+
+.boton-contenedor {
+  padding: 3px;
+  background-color: $azuloscuro;
+  margin: 3px;
+  border-radius: 5px;
 }
 
       }
@@ -586,9 +596,6 @@ $grisclaro:#ebe7e0;
     
 
 }
-
-
-
 
 #titulo-navbar:hover {
     color: #44749d;
