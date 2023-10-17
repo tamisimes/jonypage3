@@ -196,36 +196,62 @@ $grisclaro:#ebe7e0;
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
         height: 100vh;
-        min-height: 45rem;
-        max-height: 45rem;
+        min-height: 60rem;
+        max-height: 60rem;
       }
       .titulo-aboutme {
-        font-size: 60px;
+        font-size: 45px;
         color: $grisclaro;
         padding-top: 30px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
       #presentacion-jony {
+    color: $grisclaro;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .presentacion {
+    height: 100%;
+  }
+  #foto-jony {
+    height: 27%;
+    box-shadow: 2px 5px 5px $grisoscuro;
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  
+  #foto-jony:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+    }
+.skill-titulo {
         color: $grisclaro;
-        font-size: 18px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: overline;
+        font-size:28px;
+        margin-top: -480px;      
       }
-    
-      .presentacion {
-        height: 100%;
-      }
-      #foto-jony {
-        height: 40%;
-        box-shadow: 2px 5px 5px $grisoscuro;
-        transition: transform 0.2s; /* Animación de transformación */
+#columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;   
+    text-align: center;
+    margin-top: 3px;
+    padding: 15px;
+    color: $grisclaro;
+    font-size: 12px;
+}
+
+.boton-contenedor {
+  padding: 3px;
+  background-color: $azuloscuro;
+  margin: 3px;
+  border-radius: 5px;
+}
+
       }
       
-      #foto-jony:hover {
-        transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
-        }
-      }
 
 
 
@@ -310,34 +336,60 @@ $grisclaro:#ebe7e0;
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
         height: 100vh;
-        min-height: 45rem;
-        max-height: 45rem;
+        min-height: 60rem;
+        max-height: 60rem;
       }
       .titulo-aboutme {
-        font-size: 60px;
+        font-size: 50px;
         color: $grisclaro;
-        padding-top: 50px;
+        padding-top: 30px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
       #presentacion-jony {
+    color: $grisclaro;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .presentacion {
+    height: 100%;
+  }
+  #foto-jony {
+    height: 30%;
+    box-shadow: 2px 5px 5px $grisoscuro;
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  
+  #foto-jony:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+    }
+.skill-titulo {
         color: $grisclaro;
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        padding: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: overline;
+        font-size:30px;
+        margin-top: -420px;      
       }
-       .presentacion {
-        height: 100%;
-      }
-      #foto-jony {
-        height: 40%;
-        box-shadow: 2px 5px 5px $grisoscuro;
-        transition: transform 0.2s; /* Animación de transformación */
-      }
-      
-      #foto-jony:hover {
-        transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
-        }
+#columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;   
+    text-align: center;
+    margin-top: 3px;
+    padding: 15px;
+    color: $grisclaro;
+    font-size: 14px;
+}
+
+.boton-contenedor {
+  padding: 3px;
+  background-color: $azuloscuro;
+  margin: 3px;
+  border-radius: 5px;
+}
+   
 }
 
 
@@ -480,66 +532,60 @@ $grisclaro:#ebe7e0;
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
         height: 100vh;
-        min-height: 45rem;
-        max-height: 45rem;
+        min-height: 60rem;
+        max-height: 60rem;
       }
-      
-      #columna-skills {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content:left;   
-          text-align: center;
-          margin-top: 50px;
-      }
-      
-      .boton-contenedor {
-        padding: 0rem 1rem;
-        margin-bottom: 0.5rem;
-        margin-right: 0.5rem;
-        background: white;
-        border-radius: 5px;
-        font-size: 15px;
-        color: $azuloscuro;
-        font-family: 'Courier New', Courier, monospace;
-      
-      
-      }
-      
       .titulo-aboutme {
         font-size: 60px;
         color: $grisclaro;
         padding-top: 30px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
-      
       #presentacion-jony {
-        color: $grisclaro;
-        font-size: 22px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 30px;
-      }
-      
-      
-      
-      #foto-jony {
-        height: 50%;
-        box-shadow: 2px 5px 5px $grisoscuro;
-        transition: transform 0.2s; /* Animación de transformación */
-      }
-      
-      #foto-jony:hover {
-        transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
-      
-      }
-      .skill-titulo {
+    color: $grisclaro;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .presentacion {
+    height: 100%;
+  }
+  #foto-jony {
+    height: 35%;
+    box-shadow: 2px 5px 5px $grisoscuro;
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  
+  #foto-jony:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+    }
+.skill-titulo {
         color: $grisclaro;
         font-family: 'Courier New', Courier, monospace;
         text-decoration: overline;
-        text-align: left;
-        padding-top: 100px;
-        font-size: 30px;
-      
+        font-size:40px;
+        margin-top: -420px;      
       }
+#columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;   
+    text-align: center;
+    margin-top: 3px;
+    padding: 20px;
+    color: $grisclaro;
+    font-size: 15px;
+}
+
+.boton-contenedor {
+  padding: 3px;
+  background-color: $azuloscuro;
+  margin: 3px;
+  border-radius: 5px;
+}
+   
       
       .section3 {
         color:$azuloscuro;
@@ -636,6 +682,13 @@ section {
   color: $azuloscuro;
 }
 
+
+@media only screen and (max-width:1000px) and (min-width:990px) {
+  #titulo-navbar {
+    font-size: 15px;
+    padding-left: 20px;
+}
+}
 
 
 
