@@ -119,8 +119,46 @@
     background-color: #44749d;
     margin: 3px;
     border-radius: 5px;
+    text-align: center;
+
+  }
+  #cartas-dejony{
+    color:#44749d;
+    border: 2px solid;
+    background-color:#ebe7e0;
+    margin: 35px;
+  } 
+#titulo-studies {
+  text-decoration: underline;
+  font-size: 45px;
+  color:#535352;
+  padding-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  }
+   .section3 {
+    color: #44749d;
+    background: #ebe7e0;
+    height: 80vh;
+    min-height: 37rem;
+    max-height: 37rem;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 30px; /* Ajusta el valor según el espaciado que desees */
+  }
+  /* Agrega un estilo para el separador entre elementos del menú */
+  .separator {
+    display: inline-block;
+    width: 2px; /* Ancho del separador */
+  }
+  .card {
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
   }
 }
+  
 /*MEDIA QUERIE MEDIANO PARTE 1*/
 @media only screen and (max-width: 545px) and (min-width: 386px) {
   #titulo-navbar {
@@ -235,7 +273,44 @@
     margin: 3px;
     border-radius: 5px;
   }
+  #cartas-dejony{
+    color:#44749d;
+    border: 2px solid;
+    background-color:#ebe7e0;
+    margin: 35px;
+  } 
+#titulo-studies {
+  text-decoration: underline;
+  font-size: 45px;
+  color:#535352;
+  padding-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  }
+   .section3 {
+    color: #44749d;
+    background: #ebe7e0;
+    height: 80vh;
+    min-height: 37rem;
+    max-height: 37rem;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 30px; /* Ajusta el valor según el espaciado que desees */
+  }
+  /* Agrega un estilo para el separador entre elementos del menú */
+  .separator {
+    display: inline-block;
+    width: 2px; /* Ancho del separador */
+  }
+  .card {
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
 }
+
+
 /* MEDIA QUERIE MEDIDA 2 */
 @media only screen and (max-width: 1000px) and (min-width: 545px) {
   .boton-work {
@@ -371,9 +446,44 @@
     margin: 3px;
     border-radius: 5px;
   }
+  #cartas-dejony{
+    color:#44749d;
+    border: 2px solid;
+    background-color:#ebe7e0;
+    margin: 35px;
+  } 
+#titulo-studies {
+  text-decoration: underline;
+  font-size: 45px;
+  color:#535352;
+  padding-left: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  }
+   .section3 {
+    color: #44749d;
+    background: #ebe7e0;
+    height: 100vh;
+    min-height: 45rem;
+    max-height: 45rem;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 30px; /* Ajusta el valor según el espaciado que desees */
+  }
+  /* Agrega un estilo para el separador entre elementos del menú */
+  .separator {
+    display: inline-block;
+    width: 2px; /* Ancho del separador */
+  }
+  .card {
+    transition: transform 0.2s; /* Animación de transformación */
+  }
+  .card:hover {
+    transform: scale(1.1); /* Agrandar la carta al pasar el ratón sobre ella */
+  }
 }
 /*MEDIA QUERIE GRANDE*/
-@media only screen and (max-width: 1800px) and (min-width: 1000px) {
+@media only screen and (max-width: 2500px) and (min-width: 1000px) {
   .section1 {
     color: #fff;
     background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
@@ -584,6 +694,20 @@
   .card-body {
     margin-top: 10px;
   }
+  #cartas-dejony{
+    color:#44749d;
+    border: 2px solid;
+    margin: 35px;
+  } 
+#titulo-studies {
+  text-decoration: underline;
+  font-size: 45px;
+  color:#535352;
+  padding-left: 30px;
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  }
 }
 #titulo-navbar:hover {
   color: #44749d;
@@ -625,6 +749,7 @@ section {
     font-size: 15px;
     padding-left: 20px;
   }
+  
 }
 
 /*# sourceMappingURL=estilos.css.map */
